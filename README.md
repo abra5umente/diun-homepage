@@ -2,6 +2,9 @@
 
 A Flask API that receives webhooks from [DIUN](https://crazymax.dev/diun/) and displays container update notifications in [Homepage](https://gethomepage.dev/).
 
+<img width="436" height="110" alt="image" src="https://github.com/user-attachments/assets/9af8a3f4-a6a8-45d2-8795-0be05dbaf85b" />  
+
+
 ## Features
 
 - Receives DIUN webhooks and tracks available container updates
