@@ -97,3 +97,18 @@ Add this to your `services.yaml`:
 - Updates auto-clear after 1 hour of no new webhooks (assumes new DIUN scan cycle)
 - Only tracks the most recent update per image
 - Data persists in `updates.json` file
+
+## Testing
+
+1) Create a virtualenv and install deps (once):
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+```
+
+2) Run the suite:
+```bash
+. .venv/bin/activate
+pytest -q
+```
